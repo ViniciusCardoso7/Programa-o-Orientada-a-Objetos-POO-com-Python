@@ -6,7 +6,7 @@ class Veiculo:
     def ligar_motor(self):
         print("Ligando Motor")
     def __str__(self):
-         return self.cor
+      return f"{self.__class__.__name__}:[f'{chave}={valor}' for chave, valor in self.__dict__.items()]"
 class Motocicleta (Veiculo):
     pass
 class Carro (Veiculo):
