@@ -20,7 +20,8 @@ class Gato(Mamifero):
 class Leaão(Mamifero):
     pass   
 class ornitorrinco(Mamifero, Ave):
-    pass
+   def __init__(self,cor_bico,cor_pelo,nmro_de_patas):
+        super().__init__(cor_bico=cor_bico,cor_pelo=cor_pelo,nmro_de_patas=nmro_de_patas)
 
 Gato1 = Gato(cor_pelo='preto',nmro_de_patas=4)
 print(Gato1)
