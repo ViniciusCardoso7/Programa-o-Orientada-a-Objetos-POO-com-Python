@@ -12,3 +12,7 @@ class ControleRemotoTv(ControleRemoto):
         print("Ligando a TV")
     def desligar(self):            
         print("Desligando a TV")
+
+controle = ControleRemotoTv()
+controle.ligar()
+controle.desligar()
